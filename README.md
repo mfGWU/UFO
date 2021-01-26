@@ -13,8 +13,8 @@ The deliverables of this project is to provide a webpage which lets Dana filter 
 
 In the webpage, Dana can either enter each date, city, state, country, and shape criteria or all criteria simultaneously to filter her search.  The JavaScript we wrote will store the text criteria she entered with the associated object.  See image below.
 
- 
-Filter Search Image.
+ ![Filter Search Image](https://github.com/mfGWU/UFO/blob/main/static/images/Filtered_Light.PNG "Filter Search Image")
+
 
 
 ## Summary
