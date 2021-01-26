@@ -53,73 +53,65 @@
         <div class="container-fluid"> 
             <div class="row">
                 <div class="col-md-3">
-                    <form class="bg-dark">
-                        <p>Filter Search</p>
-                        <ul class="list-group bg-dark">
-                        <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
-                            <!--a form to that will accept user input-->                           
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
-                            <!--Step 2 In the index.html file, remove the list (<li></li>) 
-                                element that creates the button.
-                            -->  
-                        </li>
-                            <!--Create four more list elements: city, state, country, and shape. 
-                                These will be similar to the "Enter Date" list element. 
-                                Each element should have the same "id" as the object properties 
-                                in the data.js file.
-                            -->  
-                        <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
-                            <label for="city">Enter a city</label>
-                            <input type="text" placeholder="rosewell" id="city" />
-                        </li>
-
-                        <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
-                            <label for="state">Enter a State</label>
-                            <input type="text" placeholder="ca" id="state" />
-                        </li>
-
-                        <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
-                            <label for="country">Enter a Country</label>
-                            <input type="text" placeholder="us" id="country" />
-                        </li>
-
-                        <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
-                            <label for="shapre">Enter a Shape</label>
-                            <input type="text" placeholder="circle" id="shape" />
-                                                 
-                        </li>
-                    
-                        <!-- <li class="list-group-item bg-dark">
-                            <button id="filter-btn" type="button" class="btn btn-default ">Filter Table</button>
-                        </li> -->
-
-                    </ul>
-                    </form>
+                  <div class="filters">
+                        <form class="bg-dark">
+                            <p>Filter Search</p>
+                                <ul class="list-group bg-dark">
+                                    <li class="list-group-item bg-dark style=font-family: inherit; font-size: 1rem;">
+                                        <!--a form to that will accept user input-->                           
+                                        <label for="date">Enter Date</label>
+                                        <input type="text" placeholder="1/10/2010" class="form-control" id="datetime" />
+                                        <!--Step 2 In the index.html file, remove the list (<li></li>) 
+                                        element that creates the button.--> 
+                                    </li>   
+                                    <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
+                                        <label for="city">Enter a city</label>
+                                        <input type="text" placeholder="san jacinto" class="form-control" id="city" />
+                                    </li>
+                                    <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
+                                        <label for="state">Enter a State</label>
+                                        <input type="text" placeholder="ca" class="form-control" id="state" />
+                                    </li>
+                                    <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
+                                        <label for="country">Enter a Country</label>
+                                        <input type="text" placeholder="us" class="form-control" id="country" />
+                                    </li>
+                                    <li class="list-group-item bg-dark style="font-family: inherit; font-size: 1rem;>
+                                        <label for="shape">Enter a Shape</label>
+                                        <input type="text" placeholder="circle" class="form-control" id="shape" />
+                                    </li>
+                                         <!-- <li class="list-group-item bg-dark">
+                                        <button id="filter-btn" type="button" class="btn btn-default ">Filter Table</button>
+                                    </li> -->
+                                </ul>
+                        </form>
+                    </div>
                 </div>
-
-                <div class="col-md-9">
-                    <table class="table table-striped">
-                        <thead>
-                          <tr>
-                            <!--<th></th>-->
-                            <th>Date</th>
-                            <th>City</th>
-                            <th>State</th>
-                            <th>Country</th>
-                            <th>Shape</th>
-                            <th>Duration</th>
-                            <th>Comments</th>
+           
+        
+                    <!-- Table-->
+                    <div class="col-md-9">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                <!--<th></th>-->
+                                <th>Date</th>
+                                <th>City</th>
+                                <th>State</th>
+                                <th>Country</th>
+                                <th>Shape</th>
+                                <th>Duration</th>
+                                <th>Comments</th>
     
-                          </tr>
-                        </thead>
-                        <tbody></tbody>
-                      </table>
-                </div>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
 
             </div>
 
-            
+
 
         </div>
     </div>
